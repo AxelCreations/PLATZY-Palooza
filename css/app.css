@@ -86,10 +86,16 @@ h1, h2, h3, h4, h5, h6, button {
 	float: none;
 }
 
-#lineup-container .orbit-container {
+#lineup-container .orbit-wrapper {
 	margin-bottom: 1em;
 }
 
 #lineup-container .column:nth-child(odd) figcaption {
 	text-align: right;
+}
+
+#tickets-container {
+	padding: 1em 0;
+	background-color: #F6E15F;
+	color: #161742;
 }
