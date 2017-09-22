@@ -2,7 +2,7 @@ body {
 	background-color: #EE3F54;
 }
 
-h1, h2, h3, h4, h5, h6, button {
+h1, h2, h3, h4, h5, h6, button, input[button="submit"] {
 	font-family: 'Bree Serif', serif;
 }
 
@@ -98,4 +98,47 @@ h1, h2, h3, h4, h5, h6, button {
 	padding: 1em 0;
 	background-color: #F6E15F;
 	color: #161742;
+}
+
+.pricing-table {
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description {
+	font-size: 20px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+	font-size: 30px;
+}
+
+.pricing-table a.button {
+	font-family: 'Bree Serif', serif;
+}
+
+#info-container {
+	background-color: #161742;
+	color: white;
+	padding: 1em 0;
+}
+
+#info-container .info-map iframe {
+	width: 100%;
+}
+
+#suscribete-container {
+	background-color: #EE3F54;
+	color: white;
+	padding: 1em 0;
+}
+
+#suscribete-container h4 small {
+	color:  #FFCDDC;
+}
+
+#suscribete-container .error-container {
+	font-family: 'Bree Serif', serif;
 }

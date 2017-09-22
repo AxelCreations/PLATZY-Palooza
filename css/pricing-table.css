@@ -1,5 +1,5 @@
 .pricing-table {
-  background-color: #fefefe;
+  background-color: #F6E15F;
   border: solid 1px #cacaca;
   width: 100%;
   text-align: center;
@@ -22,7 +22,7 @@
 }
 
 .pricing-table .price {
-  background-color: #e6e6e6;
+  background-color: white;
   font-size: 2rem;
   border-bottom: 0;
 }
