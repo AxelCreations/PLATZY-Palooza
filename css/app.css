@@ -1,5 +1,5 @@
 body {
-	background-color: #EE3F54;
+	background-color: black;
 }
 
 h1, h2, h3, h4, h5, h6, button, input[button="submit"] {
@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6, button, input[button="submit"] {
 #menu-container li a {
 	color: white;
 	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
 }
 
 #menu-container li a:hover,
@@ -141,4 +142,29 @@ h1, h2, h3, h4, h5, h6, button, input[button="submit"] {
 
 #suscribete-container .error-container {
 	font-family: 'Bree Serif', serif;
+}
+
+.is-invalid-input:not(:focus) {
+	background-color: rgb(255,228,228);
+	border-color: rgb(255,228,228);
+}
+
+.data-sticky {
+	width: 100%;
+	z-index: 100;
+}
+
+#offCanvas,
+#offCanvas li a {
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+#offCanvas .drilldown .is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent white;
+}
+
+#offCanvas .js-drilldown-back > a::before {
+	border-color: transparent white transparent transparent;
 }
